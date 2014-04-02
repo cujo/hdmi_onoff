@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="72dip"
+        android:layout_height="72dip"
+        android:orientation="vertical">
+    <ImageView
+            android:id="@+id/icon"
+			android:layout_width="72dip"
+			android:layout_height="72dip"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/icon"
+            android:background="@drawable/icon_background"
+            android:layout_gravity="center" />
+</LinearLayout>
